@@ -1,7 +1,11 @@
+[![CI](https://travis-ci.org/pkesavap/gluster-ansible-maintenance.svg?branch=master)](https://travis-ci.org/pkesavap/gluster-ansible-maintenance)
+
 Role Name
 =========
 
 replace_node - Replace gluster node with a new node.
+
+
 
 Requirements
 ------------

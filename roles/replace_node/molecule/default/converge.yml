@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include replace_node"
+      include_role:
+        name: "replace_node"
