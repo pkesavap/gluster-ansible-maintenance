@@ -4,8 +4,9 @@ python:
 
 # command to install dependencies
 install:
-- sudo pip3 install "molecule[lint]"
-- sudo pip3 install "molecule[docker]"
+
+- sudo pip install "molecule[lint]"
+- sudo pip install "molecule[docker]"
 
 # command to run tests
 script:
