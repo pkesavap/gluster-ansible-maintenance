@@ -5,14 +5,12 @@ python:
 # command to install dependencies
 install:
 
-- sudo pip install "molecule[lint]"
-- sudo pip install "molecule[docker]"
 
 # command to run tests
 script:
+- lsblk
 - ansible-lint install/*.yml -x 303,701,601,206,602,403,301,502,306 -v
 - molecule --version
 - ansible --version
-- lsblk
 - sudo molecule test
 
